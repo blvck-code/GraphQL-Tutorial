@@ -2,8 +2,6 @@ import JobList from "../components/JobList";
 import { getJobs } from "../lib/graphql/queries";
 import { useState, useEffect } from "react";
 
-// getJobs().then((jobs) => console.log("Right data =>", jobs));
-
 function HomePage() {
   const [jobs, setJobs] = useState([]);
 

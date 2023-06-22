@@ -4,6 +4,13 @@
     <data-source name="localhost" uuid="f739400e-5d39-447a-8927-5fffb07b4dd3" type="SQLITE">
       <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.40.1" jdbc-name="SQLite JDBC" jdbc-version="3.40.1.0" />
       <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
       <url>jdbc:sqlite:/home/blvck/Documents/Development/ReactJS/job-board/server/data/db.sqlite3</url>
       <remarks />
       <vm-options />
